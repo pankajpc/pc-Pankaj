@@ -1,0 +1,76 @@
+a {
+}
+a:hover {
+}
+/* Navigation */
+header.navbar {
+	background: #000;
+}
+.navbar .nav a.current:focus, .navbar .nav a.current, .navbar .nav a.current:hover {
+	background: none;
+	color: #f2cb47;
+}
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+	color: #999;
+	text-shadow: inherit;
+}
+.navbar-inverse .brand:hover, .navbar-inverse .nav>li>a:hover, .navbar-inverse .nav > li > a:focus, .navbar .nav a:hover {
+	color: #fff;
+}
+/* About Us */
+h3.tags {
+	background: #f2cb47;
+	color: #505050;
+}
+#about p:hover {
+	color: #000;
+}
+#about p:hover strong {
+	color: #000;
+}
+/* ##### Slide Management ##### */
+#home {
+	background: #ffcc36 url(../img/slide1-bg.png) top center no-repeat fixed;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	
+
+}
+#about {
+	background: #f6f6f6;
+	min-height: 1000px;
+}
+#work {
+	background: #44454e;
+	min-height: 1000px;
+	padding-bottom: 200px;
+}
+#services {
+	background: #dc4238;
+	min-height: 700px;
+}
+#contact {
+	background: #fcd51c;
+	min-height: 700px;
+	padding: 0px;
+	position: relative;
+}
+/*Contact */
+#contact .container {/*background:url(../img/dot-green.png) repeat;*/
+}
+/* Service */
+.serv-info .circle {
+	border: 3px solid #fff;
+}
+
+/* Selection color works on in Modern Browser */
+::-moz-selection {
+background:#fcd51c;
+color:#fff;
+}
+::selection {
+	background: #fcd51c;
+	color: #fff;
+}
